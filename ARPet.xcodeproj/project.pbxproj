@@ -12,6 +12,8 @@
 		C047ED232A857224002E6E99 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C047ED222A857224002E6E99 /* Experience.rcproject */; };
 		C047ED252A857225002E6E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C047ED242A857225002E6E99 /* Assets.xcassets */; };
 		C047ED282A857225002E6E99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C047ED272A857225002E6E99 /* Preview Assets.xcassets */; };
+		C047ED2F2A858D2E002E6E99 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047ED2E2A858D2E002E6E99 /* ARViewContainer.swift */; };
+		C055BBBD2A886A0B00BC7CD3 /* ARDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055BBBC2A886A0B00BC7CD3 /* ARDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C047ED222A857224002E6E99 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		C047ED242A857225002E6E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C047ED272A857225002E6E99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C047ED2E2A858D2E002E6E99 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		C055BBBC2A886A0B00BC7CD3 /* ARDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				C047ED1E2A857224002E6E99 /* AppDelegate.swift */,
 				C047ED202A857224002E6E99 /* ContentView.swift */,
+				C047ED2E2A858D2E002E6E99 /* ARViewContainer.swift */,
+				C055BBBC2A886A0B00BC7CD3 /* ARDataViewModel.swift */,
 				C047ED222A857224002E6E99 /* Experience.rcproject */,
 				C047ED242A857225002E6E99 /* Assets.xcassets */,
 				C047ED262A857225002E6E99 /* Preview Content */,
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C047ED212A857224002E6E99 /* ContentView.swift in Sources */,
+				C047ED2F2A858D2E002E6E99 /* ARViewContainer.swift in Sources */,
+				C055BBBD2A886A0B00BC7CD3 /* ARDataViewModel.swift in Sources */,
 				C047ED1F2A857224002E6E99 /* AppDelegate.swift in Sources */,
 				C047ED232A857224002E6E99 /* Experience.rcproject in Sources */,
 			);
@@ -281,6 +289,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +321,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
