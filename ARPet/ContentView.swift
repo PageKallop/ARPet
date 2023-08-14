@@ -59,9 +59,6 @@ struct ContentView : View {
             .font(.subheadline.bold())
             .frame(width: 75, height: 50, alignment: .center)
         }
-        Spacer()
-        Text("This apps")
-          .frame(width: 75, height: 50, alignment: .center)
       }
     }
   }
