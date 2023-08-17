@@ -3,7 +3,7 @@ import Foundation
 import SwiftUI
 
 struct ARViewContainer: UIViewRepresentable {
-  var ArDataModel = ARDataViewModel()
+  @StateObject var ArDataModel = ARDataViewModel()
   let arView = ARView(frame: .zero)
   let robotScene = try! Experience.loadRobotScene()
 
@@ -21,9 +21,10 @@ struct ARViewContainer: UIViewRepresentable {
       spring.notifications.triggerAction.post()
       spring.actions.actionDone.onAction = { spring in
         self.ArDataModel.buttonPressed = true
+        robotScene.spring?.isEnabled = false
       }
     }
-    robotScene.spring?.isEnabled = false
+//    robotScene.spring?.isEnabled = false
   }
   
   func updateUIView(_ uiView: ARView, context: Context) {}

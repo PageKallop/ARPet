@@ -1,9 +1,9 @@
 import Foundation
 import UIKit
 import Combine
+import SwiftUI
 
-final class ARDataViewModel: ObservableObject {
-  let hour = Calendar.current.component(.hour, from: Date())
+final class ARDataViewModel: UIView, ObservableObject {
   @Published var buttonPressed = false
-  
 }
+

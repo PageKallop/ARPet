@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02E25B22A8D84B0003C0600 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E25B12A8D84B0003C0600 /* ContentViewModel.swift */; };
 		C047ED1F2A857224002E6E99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047ED1E2A857224002E6E99 /* AppDelegate.swift */; };
 		C047ED212A857224002E6E99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047ED202A857224002E6E99 /* ContentView.swift */; };
 		C047ED232A857224002E6E99 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C047ED222A857224002E6E99 /* Experience.rcproject */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C02E25B12A8D84B0003C0600 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		C047ED1B2A857224002E6E99 /* ARPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C047ED1E2A857224002E6E99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C047ED202A857224002E6E99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				C047ED1E2A857224002E6E99 /* AppDelegate.swift */,
 				C047ED202A857224002E6E99 /* ContentView.swift */,
+				C02E25B12A8D84B0003C0600 /* ContentViewModel.swift */,
 				C047ED2E2A858D2E002E6E99 /* ARViewContainer.swift */,
 				C055BBBC2A886A0B00BC7CD3 /* ARDataViewModel.swift */,
 				C047ED222A857224002E6E99 /* Experience.rcproject */,
@@ -148,6 +151,7 @@
 			files = (
 				C047ED212A857224002E6E99 /* ContentView.swift in Sources */,
 				C047ED2F2A858D2E002E6E99 /* ARViewContainer.swift in Sources */,
+				C02E25B22A8D84B0003C0600 /* ContentViewModel.swift in Sources */,
 				C055BBBD2A886A0B00BC7CD3 /* ARDataViewModel.swift in Sources */,
 				C047ED1F2A857224002E6E99 /* AppDelegate.swift in Sources */,
 				C047ED232A857224002E6E99 /* Experience.rcproject in Sources */,

@@ -3,15 +3,10 @@ import RealityKit
 import Combine
 
 struct ContentView : View {
-  let arView = ARViewContainer()
-
-  var heartArray = [Image(systemName: "heart.fill"),
-                    Image(systemName: "heart.fill")]
-  var happinessArray = [Image(systemName: "smiley"),
-                    Image(systemName: "smiley")]
-  var hungerArray = [Image(systemName: "gear"),
-                    Image(systemName: "gear")]
-
+  var arView = ARViewContainer()
+  @ObservedObject var model = ContentViewModel()
+  @State private var refresh = false
+  
   var body: some View {
     let screenSize = UIScreen.main.bounds.size
     VStack {
@@ -21,45 +16,58 @@ struct ContentView : View {
         VStack {
           Text(String(format: NSLocalizedString("Health", comment: "")))
           HStack {
-            ForEach(0..<heartArray.count) { imageIdx in
+            ForEach(0..<model.healthArray.count, id: \.self) { imageIdx in
               Image(systemName: "heart.fill")
-                .padding(10)
-                .frame(width: 5, height: 5, alignment: .center)
+                .padding(5)
+                .frame(width: 15, height: 5, alignment: .center)
             }
-          }
+            .onReceive(model.$healthArray) { _ in
+              refresh.toggle()
+            }
+          }.background(Color.purple)
         }
         VStack {
           Text(String(format: NSLocalizedString("Happiness", comment: "")))
           HStack {
-            ForEach(0..<happinessArray.count) { imageIdx in
+            ForEach(0..<model.happinessArray) { imageIdx in
               Image(systemName: "smiley")
-                .padding(10)
-                .frame(width: 5, height: 5, alignment: .center)
+                .padding(5)
+                .frame(width: 15, height: 5, alignment: .center)
             }
-          }
+          }.background(Color.red)
         }
         VStack {
           Text(String(format: NSLocalizedString("Hunger", comment: "")))
           HStack {
-            ForEach(0..<hungerArray.count) { imageIdx in
+            ForEach(0..<model.hungerArray.count, id: \.self) { imageIdx in
               Image(systemName: "smiley")
-                .padding(10)
-                .frame(width: 5, height: 5, alignment: .center)
+                .padding(5)
+                .frame(width: 15, height: 5, alignment: .center)
             }
-          }
+            .onReceive(model.$hungerArray) { _ in
+              refresh.toggle()
+            }
+          }.background(Color.blue)
+            .frame(width: 75, height: 5, alignment: .center)
         }
-      }
+      }.frame(minWidth: 0, maxWidth: .infinity)
       arView.edgesIgnoringSafeArea(.all)
       HStack {
         Button(action: {
           arView.triggerAction()
+          if model.hungerArray.count == 5 {
+            model.healthArray.removeLast()
+          } else {
+            model.hungerArray.append(Image(systemName: "smiley"))
+          }
         }) {
           Text("FEED THE ROBOT")
-            .foregroundColor(.red)
-            .font(.subheadline.bold())
+            .foregroundColor(.black)
+            .font(.headline.bold())
             .frame(width: 75, height: 50, alignment: .center)
-        }
-      }
+        }.padding()
+          .background(Color.teal)
+      }.background(Color.white)
     }
   }
 }
