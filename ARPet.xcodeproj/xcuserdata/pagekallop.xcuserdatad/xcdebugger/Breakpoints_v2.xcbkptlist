@@ -14,8 +14,8 @@
             filePath = "ARPet/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -62,10 +62,136 @@
             filePath = "ARPet/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CF21B4D-3B6B-48BF-B2ED-E41C353D456E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARPet/ARViewContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "jumpNotification()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8CF21B4D-3B6B-48BF-B2ED-E41C353D456E - 69b06dba322b980d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;RealityKit.Entity&gt;) -&gt; () in ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "8CF21B4D-3B6B-48BF-B2ED-E41C353D456E - 69b06dba322b9eda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;RealityKit.Entity&gt;) -&gt; () in ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CBEA356-B402-4A93-8A3D-F9DFD9F6B98D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARPet/ARViewContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "jumpNotification()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CBEA356-B402-4A93-8A3D-F9DFD9F6B98D - 51d936ca9c9d9b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "3CBEA356-B402-4A93-8A3D-F9DFD9F6B98D - 51d936ca9c9d9b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "3CBEA356-B402-4A93-8A3D-F9DFD9F6B98D - 51d936ca9c9d89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "3CBEA356-B402-4A93-8A3D-F9DFD9F6B98D - 51d936ca9c9d89a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARPet.ARViewContainer.jumpNotification() -&gt; ()"
+                  moduleName = "ARPet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pagekallop/Desktop/ARPet/ARPet/ARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
